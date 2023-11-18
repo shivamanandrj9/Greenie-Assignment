@@ -1,0 +1,43 @@
+.table-container {
+    max-width: 100%;
+    max-height: 70vh;
+    overflow-y: scroll;
+    overflow-x: auto;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 5px 6px 6px rgb(0 0 0 / 10%);
+  }
+  
+
+  .userscontainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #e5e5e5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    justify-items: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 20px;
+    text-align: center;
+    overflow: overlay;
+    background-color: #444444;
+    border-radius: 25px;
+    box-shadow: 5px 6px 6px rgb(0 0 0 / 10%);
+  }
+
+  .userscontainer button {
+    padding: 6px 9px;
+    background-color: #007bff;
+    font-size: 13px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .userscontainer button:hover {
+    background-color: #0056b3;
+  }
